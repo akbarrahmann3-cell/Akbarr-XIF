@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SMA 9 CIREBON</title>
+
+  <style>
+    /* Reset ringan */
+    * { box-sizing: border-box; }
+    html,body { margin: 0; padding: 0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; color: #222; background:#f4f7fb; }
+    img { max-width:100%; height:auto; display:block; }
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+header {
+    background: #0d47a1;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+nav {
+    background: #1565c0;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+nav a:hover {
+    color: yellow;
+}
+    /* Main */
+    main { max-width: 980px; margin: 20px auto; padding: 0 12px; }
+
+    /* Layout konten: gambar + teks */
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 1.2fr;
+      gap: 18px;
+      background: #fff;
+      padding: 18px;
+      margin:20px;
+      border-radius: 10px;
+      box-shadow: 0 6px 18px rgba(11,22,40,0.06);
+    }
+
+    .container .img-wrap {
+      align-self: start;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    .container .card {
+      padding: 6px 6px;
+    }
+    .card h2 { margin-top: 0; color:#0d47a1; font-size:1.15rem; }
+
+    /* Typography untuk visi/misi/tujuan */
+    .section-title { color: #0d47a1; margin: 10px 0 6px; font-size: 1.05rem; }
+    .lead { margin: 8px 0 12px; color: #333; }
+    ol, ul { margin: 8px 0 12px 20px; color: #222; }
+    li { margin: 6px 0; line-height: 1.5; }
+
+    /* Footer */
+    footer { background: #0d47a1; color: #fff; text-align:center; padding: 12px 8px; margin-top: 18px; border-radius: 0 0 10px 10px; }
+
+    /* Responsif */
+    @media (max-width: 780px) {
+      .container { grid-template-columns: 1fr; }
+      nav a { margin: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>WELCOME TO SMA NEGERI 9 CIREBON</h1>
+    <p>Informasi Tentang Kami</p>
+  </header>
+
+  <nav aria-label="Navigasi utama">
+    <a href="index.html">Home</a>
+    <a href="profil.html">Profil</a>
+    <a href="visi-misi.html" style="color:yellow">Visi Misi</a>
+    <a href="eskul.html">Eskul</a>
+    <a href="kontak.html">Kontak</a>
+  </nav>
+
+  <main>
+    <section class="container" aria-labelledby="visi-misi-title">
+      <div class="img-wrap" role="img" aria-label="Foto guru">
+        <!-- Pastikan file One.jpeg ada di folder yang sama atau ganti path -->
+        <img src="One.jpeg" alt="Foto guru SMA Negeri 9 Cirebon">
+      </div>
+
+      <div class="card" id="visi-misi-title">
+        <h2>Visi dan Misi</h2>
+
+        <h3 class="section-title">Visi</h3>
+        <p class="lead">
+          Berbudi pekerti luhur, unggul dalam prestasi, mandiri, dan peduli lingkungan (Tahun 2025).
+        </p>
+
+        <h3 class="section-title">Misi</h3>
+        <ol>
+          <li>Melaksanakan pengamalan nilai-nilai keimanan dan ketaqwaan terhadap Tuhan Yang Maha Esa.</li>
+          <li>Membudayakan disiplin, toleransi, berakhlak mulia dan bertanggung jawab sebagai manifestasi nilai budi pekerti yang luhur.</li>
+          <li>Menumbuhkan karakter semangat kebangsaan dan cinta tanah air.</li>
+          <li>Melaksanakan program peningkatan prestasi akademik dan non-akademik.</li>
+          <li>Menumbuhkan dan memfasilitasi terbentuknya karakter mandiri agar peserta didik lebih kompetitif memasuki perguruan tinggi, dunia kerja, dan wirausaha.</li>
+          <li>Menumbuhkan kepedulian warga sekolah terhadap lingkungan fisik dan sosial budaya di lingkungan sekolah, bangsa dan negara, serta masyarakat global.</li>
+        </ol>
+
+        <h3 class="section-title">Tujuan</h3>
+        <ol>
+          <li>Meningkatnya keimanan dan ketaqwaan terhadap Tuhan Yang Maha Esa.</li>
+          <li>Terbentuknya peserta didik yang berbudi pekerti luhur, memiliki semangat kebangsaan dan cinta tanah air.</li>
+          <li>Peserta didik menguasai ilmu pengetahuan, teknologi, sosial budaya, dan seni guna menghadapi kehidupan masa yang akan datang.</li>
+          <li>Sekolah mewujudkan peserta didik yang berprestasi baik akademik maupun non-akademik di tingkat kota, Wilayah III Cirebon, serta Provinsi Jawa Barat.</li>
+          <li>Tingkat kompetensi peserta didik pada AKM: 20% berada pada level cakap, 50% pada level dasar, dan 30% memerlukan intervensi khusus.</li>
+          <li>Memiliki tim KSN yang dibina secara berkelanjutan untuk mencapai peringkat 10 besar KSN Tingkat Kota Cirebon.</li>
+          <li>Peserta didik yang melanjutkan ke perguruan tinggi sebesar 40% dan 15% diterima di PTN; memberikan bekal keterampilan lunak (soft skill) bagi peserta didik yang akan melanjutkan ke perguruan tinggi, memasuki dunia kerja, dan wirausaha.</li>
+          <li>Terbentuknya warga sekolah yang peduli lingkungan fisik dan sosial budaya di lingkungan sekolah, bangsa dan negara, serta masyarakat global.</li>
+          <li>Terwujudnya sekolah yang memenuhi 8 Standar Nasional Pendidikan (SNP).</li>
+        </ol>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 SMA NEGERI 9 CIREBON
+  </footer>
+</body>
+</html>
